@@ -4,14 +4,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:test_taskk/api/cats_fact_api/cats_fact_api.dart';
-import 'package:test_taskk/cubit/cat_fact_cubit.dart';
-import 'package:test_taskk/cubit/loader_cubit.dart';
-import 'package:test_taskk/models/cat_model/cats_model.dart';
-import 'package:test_taskk/pages/facts_history_screen.dart';
-import 'package:test_taskk/pages/main_screen.dart';
-import 'package:test_taskk/repository/cat_fact_repository.dart';
-import 'package:test_taskk/repository/hive_repository.dart';
+import 'package:test_taskk/data/cats_fact_api/cats_fact_api.dart';
+import 'package:test_taskk/data/models/cat_model/cats_model.dart';
+import 'package:test_taskk/data/repository/cat_fact_repository.dart';
+import 'package:test_taskk/data/repository/hive_repository.dart';
+import 'package:test_taskk/logic/cat_fact_cubit/cat_fact_cubit.dart';
+import 'package:test_taskk/logic/loader_cubit/loader_cubit.dart';
+import 'package:test_taskk/presentation/pages/facts_history_screen.dart';
+import 'package:test_taskk/presentation/pages/main_screen.dart';
 
 const String dataBoxName = "data";
 

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:test_taskk/cubit/cat_fact_cubit.dart';
-import 'package:test_taskk/shared_widgets/app_bar.dart';
-import 'package:test_taskk/shared_widgets/page_layout.dart';
+import 'package:test_taskk/logic/cat_fact_cubit/cat_fact_cubit.dart';
+import 'package:test_taskk/presentation/shared_widgets/app_bar.dart';
+import 'package:test_taskk/presentation/shared_widgets/page_layout.dart';
 
 class FactsHistoryScreen extends StatelessWidget {
   static const routeName = '/history';

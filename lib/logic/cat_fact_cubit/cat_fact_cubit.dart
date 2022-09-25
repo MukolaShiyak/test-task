@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_taskk/cubit/loader_cubit.dart';
-import 'package:test_taskk/models/cat_model/cats_model.dart';
-import 'package:test_taskk/repository/cat_fact_repository.dart';
-import 'package:test_taskk/repository/hive_repository.dart';
+import 'package:test_taskk/data/models/cat_model/cats_model.dart';
+import 'package:test_taskk/data/repository/cat_fact_repository.dart';
+import 'package:test_taskk/data/repository/hive_repository.dart';
+import 'package:test_taskk/logic/loader_cubit/loader_cubit.dart';
 
 part 'cat_fact_state.dart';
 

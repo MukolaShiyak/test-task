@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_taskk/cubit/loader_cubit.dart';
-import 'package:test_taskk/shared_widgets/app_bar.dart';
+import 'package:test_taskk/logic/loader_cubit/loader_cubit.dart';
+import 'package:test_taskk/presentation/shared_widgets/app_bar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class PageLayout extends StatelessWidget {

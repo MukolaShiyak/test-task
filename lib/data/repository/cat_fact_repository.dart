@@ -1,5 +1,5 @@
-import 'package:test_taskk/api/cats_fact_api/cats_fact_api.dart';
-import 'package:test_taskk/models/cat_model/cats_model.dart';
+import 'package:test_taskk/data/cats_fact_api/cats_fact_api.dart';
+import 'package:test_taskk/data/models/cat_model/cats_model.dart';
 import 'package:test_taskk/utils/timeFormater.dart';
 
 class CatRepository {
