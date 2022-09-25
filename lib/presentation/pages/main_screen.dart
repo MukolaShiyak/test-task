@@ -29,13 +29,15 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   void initState() {
-    List<CatModel>? list = [
-      ...?context.read<HiveRepository>().getFactsFromHive()
-    ];
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      List<CatModel>? list = [
+        ...?context.read<HiveRepository>().getFactsFromHive()
+      ];
 
-    context.read<CatFactCubit>().loadStateFromHive(list);
+      context.read<CatFactCubit>().loadStateFromHive(list);
 
-    _updateImgWidget(context);
+      _updateImgWidget(context);
+    });
 
     super.initState();
   }
