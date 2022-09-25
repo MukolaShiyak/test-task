@@ -58,12 +58,14 @@ class _MainScreenState extends State<MainScreen> {
     }
 
     setState(() {
-      _image = Image.memory(
-        imageBytes!,
-        fit: BoxFit.contain,
-        height: 350.h,
-        width: 300.w,
-      );
+      if (imageBytes != null) {
+        _image = Image.memory(
+          imageBytes,
+          fit: BoxFit.contain,
+          height: 350.h,
+          width: 300.w,
+        );
+      }
     });
   }
 
